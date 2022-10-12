@@ -3,6 +3,7 @@ import styled from 'styled-components' //'styled' can be anything. is a 'default
 //BasicTitle is a React component. Naming convention. see 'styled.h1' from above (default import).
 //'styled' is object. h1 is a method call
 
+// tagged template literal
 const BasicTitle = styled.h1` 
 text-align: center;
 text-transform: capitalize;
@@ -12,6 +13,9 @@ text-transform: capitalize;
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
+      <BasicTitle>styled components</BasicTitle>
+      <BasicTitle>styled components</BasicTitle>
+      <BasicTitle>styled components</BasicTitle>
       <BasicTitle>styled components</BasicTitle>
       <button className="btn">click me</button>
     </div>
